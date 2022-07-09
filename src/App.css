@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../public/assets/fonts/NotoSerif-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Splash", cursive;
+  src: url("../public/assets/fonts/Splash-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "Playfair Display", serif;
+  src: url("../public/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input, textarea {
+  font-family: Arial, Helvetica, sans-serif;
 }
