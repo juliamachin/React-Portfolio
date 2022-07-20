@@ -5,10 +5,9 @@ html {
   overflow: hidden;
   height: 100%;
   /* font-family: Geneva, sans-serif; */
-  background: hsl(210, 30%, 0%)
-    radial-gradient(hsl(210, 30%, 20%), hsl(210, 30%, 0%));
+  background:yellow;
+	font-family: 'Montserrat', sans-serif;
 }
-
 body {
   margin: 0;
   font-family: 300 11px/1.4 "Playfair Display", serif;

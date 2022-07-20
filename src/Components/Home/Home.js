@@ -4,8 +4,10 @@ import TextAnimation from "../animations/TextAnimation";
 const Home = () => {
   return (
     <div className="home-page">
-      <p className="flashlight">Julia <br /> Machin</p>
+      <h1>Julia Machin</h1>
+      <div className="animation">
       <TextAnimation />
+      </div>
     </div>
   );
 };
