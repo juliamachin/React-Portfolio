@@ -21,7 +21,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <Link className="logo" to="/">
-        <img src="/assets/images/Icon.png" className="compass-icon" />
+        <img src="../assets/images/Icon.png" alt="icon" className="compass-icon" />
         <p className="my-name">Julia Machin</p>
       </Link>
       <nav className={hamburger ? "hamburger" : "menu"}>
