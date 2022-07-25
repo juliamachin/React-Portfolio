@@ -12,7 +12,7 @@ function App() {
     <>
       <Routes>
         <Route path="/React-Portfolio" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route path="/React-Portfolio" element={<Home />} />
           <Route path="/React-Portfolio/about" element={<About />} />
           <Route path="/React-Portfolio/contact" element={<Contact />} />
           <Route path="/React-Portfolio/portfolio" element={<Portfolio />} />

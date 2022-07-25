@@ -35,23 +35,23 @@ const Sidebar = () => {
             exact="true"
             activeclassname="active"
             className="item"
-            to="/"
+            to="/React-Portfolio"
           >
             <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             <p className="p">HOME</p>
           </NavLink>
           <br />
-          <NavLink activeclassname="active" className="item" to="/about">
+          <NavLink activeclassname="active" className="item" to="/React-Portfolio/about">
             <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             <p className="p">ABOUT</p>
           </NavLink>
           <br />
-          <NavLink activeclassname="active" className="item" to="/portfolio">
+          <NavLink activeclassname="active" className="item" to="/React-Portfolio/portfolio">
             <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
             <p className="p">PORTFOLIO</p>
           </NavLink>
           <br />
-          <NavLink activeclassname="active" className="item" to="/contact">
+          <NavLink activeclassname="active" className="item" to="/React-Portfolio/contact">
             <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             <p className="p">CONTACT</p>
           </NavLink>
