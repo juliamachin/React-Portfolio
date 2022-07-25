@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6c88b98.css",
-    "main.js": "/static/js/main.a3dc5be5.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Splash-Regular.ttf": "/static/media/Splash-Regular.9313a8c93be64cb7914c.ttf",
-    "static/media/NotoSerif-Regular.ttf": "/static/media/NotoSerif-Regular.f137c7ae4fdb27744a29.ttf",
-    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-VariableFont_wght.54971b7248ded7d0d614.ttf",
-    "index.html": "/index.html",
-    "main.d6c88b98.css.map": "/static/css/main.d6c88b98.css.map",
-    "main.a3dc5be5.js.map": "/static/js/main.a3dc5be5.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/React-Portfolio/static/css/main.b6a670e3.css",
+    "main.js": "/React-Portfolio/static/js/main.e4e65630.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Splash-Regular.ttf": "/React-Portfolio/static/media/Splash-Regular.9313a8c93be64cb7914c.ttf",
+    "static/media/NotoSerif-Regular.ttf": "/React-Portfolio/static/media/NotoSerif-Regular.f137c7ae4fdb27744a29.ttf",
+    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/React-Portfolio/static/media/PlayfairDisplay-VariableFont_wght.54971b7248ded7d0d614.ttf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.b6a670e3.css.map": "/React-Portfolio/static/css/main.b6a670e3.css.map",
+    "main.e4e65630.js.map": "/React-Portfolio/static/js/main.e4e65630.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6c88b98.css",
-    "static/js/main.a3dc5be5.js"
+    "static/css/main.b6a670e3.css",
+    "static/js/main.e4e65630.js"
   ]
 }
