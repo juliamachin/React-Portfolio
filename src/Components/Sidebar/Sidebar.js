@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
+
 const Sidebar = () => {
   const [hamburger, setHamburger] = useState("false");
   const [burger, setBurger] = useState("false");
@@ -20,10 +21,10 @@ const Sidebar = () => {
   };
   return (
     <div className="sidebar">
-      <Link className="logo" to="/">
-        <img src="../assets/images/Icon.png" alt="icon" className="compass-icon" />
+      <a className="logo" href="/React-Portfolio">
+        <img src="./public/Icon.png" alt="icon" className="compass-icon" />
         <p className="my-name">Julia Machin</p>
-      </Link>
+      </a>
       <nav className={hamburger ? "hamburger" : "menu"}>
         <div onClick={toggleClass} className="ham">
           <span className="topBun"></span>
