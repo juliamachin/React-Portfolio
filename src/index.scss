@@ -1,21 +1,16 @@
 html {
   margin: 0;
-  color: #6b6969;
-  font-size: 62.5%;
   overflow: hidden;
   height: 100%;
   /* font-family: Geneva, sans-serif; */
-  background:yellow;
+  background:rgb(154, 154, 131);
 	font-family: 'Montserrat', sans-serif;
 }
 body {
   margin: 0;
-  font-family: 300 11px/1.4 "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
   width: 100%;
   height: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

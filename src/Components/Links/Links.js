@@ -1,4 +1,4 @@
-import "./Sidebar.scss";
+import "./Links.scss";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,7 +11,7 @@ import {
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 
-const Sidebar = () => {
+const Links = () => {
   const [hamburger, setHamburger] = useState("false");
   const [burger, setBurger] = useState("false");
 
@@ -22,7 +22,6 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <a className="logo" href="/React-Portfolio">
-        <img src="./public/Icon.png" alt="icon" className="compass-icon" />
         <p className="my-name">Julia Machin</p>
       </a>
       <nav className={hamburger ? "hamburger" : "menu"}>
@@ -85,4 +84,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Links;
