@@ -1,4 +1,10 @@
 import './Portfolio.scss'
+import {
+    CarouselControl,
+    Carousel,
+    CarouselItem,
+    CarouselIndicators,
+} from 'reactstrap';
 
 const Portfolio = () => {
     return (

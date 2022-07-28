@@ -67,3 +67,10 @@ Button {
 Button:hover {
   background: #cc4949;
 }
+
+@media only screen and (max-width: 780px) and (max-height: 900px) {
+    Form {
+        max-width: 300px;
+        left: 20%;
+    }
+}
